@@ -217,7 +217,6 @@ test('Test Case 21312: Validate customer organization user can be associate to t
             break;
         }
     }
-
 });
 test('Test Case 21056: Validate customer organization user association in security group approval', async ({ page }) => {
     await page.goto(baseURL);
@@ -244,7 +243,6 @@ test('Test Case 21056: Validate customer organization user association in securi
     await Checker_login(page);
     await Master_Pending(page);
     await page.pause();
-
 });
 
 
